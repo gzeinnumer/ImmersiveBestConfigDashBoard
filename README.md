@@ -1,11 +1,12 @@
 # ImmersiveBestConfigDashBoard
 
-|![](https://github.com/gzeinnumer/ImmersiveBestConfigDashBoard/blob/master/preview/example1.jpg)|
-|---|
+<p align="center">
+  <img src="https://github.com/gzeinnumer/ImmersiveBestConfigDashBoard/blob/master/preview/example1.jpg" width="300"/>
+</p>
+<p align="center">
+  <img src="https://github.com/gzeinnumer/ImmersiveBestConfigDashBoard/blob/master/preview/example2.jpg"/>
+</p>
 
-|![](https://github.com/gzeinnumer/ImmersiveBestConfigDashBoard/blob/master/preview/example2.jpg)|
-|---|
- 
 ```xml
 <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
     <item name="colorPrimary">@color/colorPrimary</item>
