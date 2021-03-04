@@ -1,7 +1,10 @@
 # ImmersiveBestConfigDashBoard
 
-|![](https://github.com/gzeinnumer/ImmersiveBestConfigDashBoard/blob/master/preview/example1.jpg)|![](https://github.com/gzeinnumer/ImmersiveBestConfigDashBoard/blob/master/preview/example2.jpg)|
-|---|---|
+|![](https://github.com/gzeinnumer/ImmersiveBestConfigDashBoard/blob/master/preview/example1.jpg)|
+|---|
+
+|![](https://github.com/gzeinnumer/ImmersiveBestConfigDashBoard/blob/master/preview/example2.jpg)|
+|---|
  
 ```xml
 <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
