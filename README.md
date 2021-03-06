@@ -18,6 +18,7 @@
     <item name="android:statusBarColor" tools:targetApi="l">@android:color/white</item>
     <item name="android:fitsSystemWindows">false</item>
     <item name="android:navigationBarColor">@color/colorPrimary</item>
+    <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
 </style>
 <style name="AppTheme.Dashboard" parent="AppTheme">
     <item name="android:navigationBarColor">@color/white_low</item>
@@ -27,6 +28,10 @@
 ```java
 protected void setFullScreen() {
     int decore = 0;
+
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
+        getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
+    }
 
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
         //enable this tho maker icon status bar become black
